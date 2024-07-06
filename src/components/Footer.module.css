@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--padding-normal);
+  height: 9rem;
+  background-color: black;
+}
+
+.social_logos {
+  display: flex;
+  gap: calc(var(--icon-gap) * 1.5);
+}
+
+.social_logos img {
+  width: calc(var(--icon-size) * 1.35);
+  object-fit: contain;
+  object-position: center;
+}
+
+p {
+  font-size: calc(var(--font-size) * 0.8);
+}
+
+@media (min-width: 48rem) {
+  .social_logos {
+    gap: calc(var(--icon-gap) * 2);
+  }
+
+  .social_logos img {
+    width: calc(var(--icon-size) * 1.75);
+  }
+
+  p {
+    font-size: var(--font-size);
+  }
+}

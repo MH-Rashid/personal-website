@@ -1,0 +1,51 @@
+nav {
+  background-color: rgb(10, 1, 47);
+  padding: calc(var(--padding-normal) * 0.5) 0;
+  font-weight: normal;
+  color: var(--col-5);
+  
+  position: fixed;
+  inset-inline: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+
+.page_links {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.navlink {
+  color: var(--col-5);
+  text-decoration: none;
+  font-size: var(--font-size);
+}
+
+.navlink:hover {
+  color: var(--col-lb);
+}
+
+@media (min-width: 48rem) {
+  nav {
+    height: 2.5rem;
+  }
+  
+  .navlink {
+    font-size: calc(var(--font-size) * 1.35);
+  }
+}
+
+@media (min-width: 64rem) {
+  nav {
+    height: 3rem;
+  }
+  
+  .navlink {
+    font-size: calc(var(--font-size) * 1.5);
+  }
+}

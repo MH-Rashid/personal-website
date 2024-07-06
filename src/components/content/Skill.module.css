@@ -1,0 +1,30 @@
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: content-box;
+  width: calc(var(--icon-size) * 2);
+  height: calc(var(--icon-size) * 3);
+  padding: calc(var(--padding-normal) * 0.5) calc(var(--padding-normal) * 1.5);
+  border: 1px solid var(--col-5);
+  border-radius: var(--bd-sm);
+  background-color: var(--col-2);
+}
+
+.logo-container figure {
+  height: 100%;
+}
+
+.logo-container img {
+  object-fit: contain;
+}
+
+@media (min-width: 64rem) {
+  .logo-container {
+    width: calc(var(--icon-size) * 3);
+    height: calc(var(--icon-size) * 4);
+    padding: calc(var(--padding-normal) * 0.75) calc(var(--padding-normal) * 1.75);
+  }
+}
