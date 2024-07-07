@@ -1,7 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
 
-import styles from "./ContactForm.module.css";
-
 export default function ContactForm() {
   const [state, handleSubmit, reset] = useForm("contactForm");
 
