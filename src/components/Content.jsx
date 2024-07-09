@@ -78,7 +78,7 @@ export default function Content() {
           />
           <Project
             projectImg={projectAppPic}
-            projectName="To-do App"
+            projectName="Task Manager"
             description="Allows users to add / delete projects and subtasks. Built with React and Tailwind CSS."
             liveLink="https://mh-rashid.github.io/Todo-app/"
             codeLink="https://github.com/MH-Rashid/S9_Project-mngt-app"
