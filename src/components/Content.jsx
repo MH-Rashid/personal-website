@@ -72,28 +72,28 @@ export default function Content() {
           <Project
             projectImg={foodOrderAppPic}
             projectName="Food Order App"
-            description="Fullstack food order app using a decoupled backend, with full cart functionality and a complete workflow for placing orders. Built with React and CSS."
+            description="Frontend food order app with complete cart functionality and start-to-end workflow for placing orders. Built with React and CSS."
             liveLink="https://mh-rashid.github.io/food-order-app/"
             codeLink="https://github.com/MH-Rashid/food-order-app"
           />
           <Project
             projectImg={projectAppPic}
-            projectName="Task Manager"
-            description="Allows users to add / delete projects and subtasks. Built with React and Tailwind CSS."
+            projectName="Project Manager"
+            description="Allows users to add / delete projects and associated tasks. Built with React and Tailwind CSS."
             liveLink="https://mh-rashid.github.io/Todo-app/"
             codeLink="https://github.com/MH-Rashid/S9_Project-mngt-app"
           />
           <Project
             projectImg={amazonAppPic}
             projectName="Amazon clone"
-            description="A clone site mimicing the core functionality of Amazon.com -- manipulating the cart, placing orders, and tracking packages. Built with HTML, CSS and JavaScript."
+            description="A clone site mimicking the core functionality of Amazon.com -- manipulating the cart, placing orders, and tracking packages. Built with HTML, CSS and vanilla JavaScript."
             liveLink="https://mh-rashid.github.io/amazon-clone/"
             codeLink="https://github.com/MH-Rashid/amazon-clone"
           />
           <Project
             projectImg={ytAppPic}
             projectName="Youtube clone"
-            description="A clone site mimicing the CSS of the original. Uses CSS grid and positioning properties for the header and sidebar. Built with HTML and CSS."
+            description="A static clone site mimicking the style of the original. Uses CSS grid and positioning properties for the header and sidebar. Built with HTML and CSS."
             liveLink="https://mh-rashid.github.io/youtube-clone/"
             codeLink="https://github.com/MH-Rashid/youtube-clone"
           />

@@ -19,8 +19,12 @@ footer {
   object-position: center;
 }
 
-p {
+.text {
   font-size: calc(var(--font-size) * 0.8);
+}
+
+.email {
+  margin-bottom: calc(var(--padding-normal) * .5);
 }
 
 @media (min-width: 48rem) {
