@@ -79,9 +79,9 @@ export default function Content() {
           <Project
             projectImg={projectAppPic}
             projectName="Project Manager"
-            description="Allows users to add / delete projects and associated tasks. Built with React and Tailwind CSS."
-            liveLink="https://mh-rashid.github.io/Todo-app/"
-            codeLink="https://github.com/MH-Rashid/S9_Project-mngt-app"
+            description="Allows users to add / delete projects and associated tasks. Built with NextJS, TypeScript and Tailwind CSS."
+            liveLink="https://project-manager-nextjs-5gpvl2anl-mh-rashids-projects.vercel.app/"
+            codeLink="https://github.com/MH-Rashid/Project-manager-nextjs-ts/tree/master"
           />
           <Project
             projectImg={amazonAppPic}
