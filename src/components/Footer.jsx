@@ -1,6 +1,5 @@
 import GHIcon from "../assets/icons/github-logo.png";
 import LIIcon from "../assets/icons/linkedin-icon.png";
-import emailIcon from "../assets/icons/email-icon.png";
 
 import styles from "./Footer.module.css";
 
@@ -25,7 +24,7 @@ export default function Footer() {
       <div className={styles.text}>
         <p className={styles.email}>mo.rashid299@gmail.com</p>
         <p>
-          Muhammed Rashid <span>&copy;</span>2024
+          Muhammed Rashid <span>&copy;</span>2025
         </p>
       </div>
     </footer>

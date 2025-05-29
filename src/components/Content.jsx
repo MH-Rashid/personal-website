@@ -35,8 +35,7 @@ export default function Content() {
             <br />a frontend web developer.
           </h1>
           <p>
-            I develop user-centred websites and apps by writing clean, precise
-            code.
+            I design elegant, smooth user experiences with clean, precise code.
           </p>
         </header>
       </Section>
@@ -44,11 +43,17 @@ export default function Content() {
       <Section id="skills">
         <h1>About</h1>
         <article>
-          Back in 2023, I wrapped up my social media marketing agency to pursue
-          a career in web development. I love the fusion of creativity and
-          coding, and the fact there are always new challenges and things to
-          learn. When I’m not coding, I like to spend my time in nature and
-          keeping fit.
+          Back in 2023, I wrapped up my social media marketing agency to enter the world of tech and pursue
+          a career in software development. What felt like a step into the unknown soon became a profound realisation of my professional calling 😅! 
+          <br />
+          <br />
+          I love the fusion between the technical and creative aspects of coding as I bring my ideas to life on screen. There are few things more satisfying than seeing a project come together, from the initial concept to the final product 💫.
+          <br />
+          <br />
+          When I’m not building software, you'll find me either building hardware (I'm an avid DIY kind of guy 🛠), cooking, hiking, doing calisthenics or enjoying a lovely evening chai with a tech buddy ☕.
+          <br />
+          <br />
+          Some of my skills include...
         </article>
         <aside>
           <Skill logo={htmlLogo} name="HTML" />
