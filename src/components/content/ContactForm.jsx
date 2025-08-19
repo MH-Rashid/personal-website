@@ -25,7 +25,7 @@ export default function ContactForm() {
       <textarea id="message" name="message" placeholder="Message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-      <button type="submit" disabled={state.submitting}>
+      <button className="form-button" type="submit" disabled={state.submitting}>
         {state.submitting ? "Submitting..." : "Submit"}
       </button>
     </form>

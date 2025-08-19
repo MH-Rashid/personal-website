@@ -3,7 +3,6 @@ import styles from "./Project.module.css";
 export default function Project({
   projectImg,
   projectName,
-  description,
   liveLink,
   codeLink,
 }) {
@@ -15,11 +14,12 @@ export default function Project({
         </a>
       </figure>
       <article className={styles["project-details"]}>
-        <h3>{projectName}</h3>
-        <a className={styles.textlink} href={codeLink} target="_blank">
-          Code
+        <a href={liveLink} target="_blank" style={{ textDecoration: "none" }}>
+          <h3>{projectName}</h3>
         </a>
-        <p>{description}</p>
+        <a className={styles.textlink} href={codeLink} target="_blank">
+          <button className={styles.button}>Code</button>
+        </a>
       </article>
     </div>
   );
