@@ -52,7 +52,7 @@ export default function Content() {
         <h1>About</h1>
         <article>
           Back in 2023, I wrapped up my social media marketing agency to enter the world of tech and pursue
-          a career in software development. What felt like a step into the unknown soon became a profound realisation of my professional calling 😅! 
+          a career in software development. What felt like a step into the unknown soon became a profound realisation of my professional calling 😅!
           <br />
           <br />
           I love the fusion between the technical and creative aspects of coding as I bring my ideas to life on screen. There are few things more satisfying than seeing a project come together, from the initial concept to the final product 💫.
@@ -97,16 +97,16 @@ export default function Content() {
             codeLink="https://github.com/MH-Rashid/food-order-app"
           />
           <Project
+            projectImg={amazonAppPic}
+            projectName="Amazon clone"
+            liveLink="https://amazon-clone-frontend-lesm.onrender.com/"
+            codeLink="https://github.com/MH-Rashid/amazon-clone"
+          />
+          <Project
             projectImg={projectAppPic}
             projectName="Project Manager"
             liveLink="https://project-manager-nextjs-5gpvl2anl-mh-rashids-projects.vercel.app/"
             codeLink="https://github.com/MH-Rashid/Project-manager-nextjs-ts/tree/master"
-          />
-          <Project
-            projectImg={amazonAppPic}
-            projectName="Amazon clone"
-            liveLink="https://mh-rashid.github.io/amazon-clone/"
-            codeLink="https://github.com/MH-Rashid/amazon-clone"
           />
           <Project
             projectImg={ytAppPic}
