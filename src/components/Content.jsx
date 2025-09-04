@@ -93,7 +93,7 @@ export default function Content() {
           <Project
             projectImg={foodOrderAppPic}
             projectName="Food Order App"
-            liveLink="https://food-order-app-fullstack-32wppvlig-mh-rashids-projects.vercel.app/"
+            liveLink="https://food-order-app-fullstack-mh-rashids-projects.vercel.app/"
             codeLink="https://github.com/MH-Rashid/food-order-app"
           />
           <Project
